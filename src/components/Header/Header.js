@@ -5,7 +5,7 @@ import logo from '../../images/logo2.png'
 const Header = () => {
     return (
         <header>
-            <nav>
+            <nav className=' container mx-auto py-4'>
                 <div className="logo-area">
                     <Link to='/'><img className=' w-auto h-12' src={logo} alt="logo" /></Link>
                 </div>
